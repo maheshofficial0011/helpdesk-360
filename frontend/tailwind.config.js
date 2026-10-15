@@ -1,0 +1,107 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: "class",
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./index.html"
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "surface-variant": "#d3e4fe",
+        "secondary-fixed-dim": "#c3c0ff",
+        "inverse-primary": "#b4c5ff",
+        "on-primary-fixed-variant": "#003ea8",
+        "tertiary-fixed": "#85f8c4",
+        "on-surface": "#0b1c30",
+        "on-error-container": "#93000a",
+        "on-tertiary-fixed": "#002114",
+        "outline-variant": "#c3c6d7",
+        "on-error": "#ffffff",
+        "on-primary-fixed": "#00174b",
+        "on-secondary-container": "#fffbff",
+        "secondary-container": "#645efb",
+        "primary-fixed": "#dbe1ff",
+        "surface-container-lowest": "#ffffff",
+        "error": "#ba1a1a",
+        "tertiary-container": "#007d57",
+        "on-tertiary-fixed-variant": "#005137",
+        "primary": "#004ac6",
+        "surface-tint": "#0053db",
+        "primary-fixed-dim": "#b4c5ff",
+        "on-surface-variant": "#434655",
+        "on-tertiary": "#ffffff",
+        "inverse-surface": "#213145",
+        "outline": "#737686",
+        "surface-bright": "#f8f9ff",
+        "on-secondary": "#ffffff",
+        "secondary-fixed": "#e2dfff",
+        "surface-container-highest": "#d3e4fe",
+        "on-primary-container": "#eeefff",
+        "surface-container": "#e5eeff",
+        "surface": "#f8f9ff",
+        "surface-container-low": "#eff4ff",
+        "secondary": "#4b41e1",
+        "on-primary": "#ffffff",
+        "surface-container-high": "#dce9ff",
+        "tertiary": "#006243",
+        "inverse-on-surface": "#eaf1ff",
+        "background": "#f8f9ff",
+        "surface-dim": "#cbdbf5",
+        "on-tertiary-container": "#bdffdc",
+        "primary-container": "#2563eb",
+        "on-background": "#0b1c30",
+        "error-container": "#ffdad6",
+        "on-secondary-fixed-variant": "#3323cc",
+        "on-secondary-fixed": "#0f0069",
+        "tertiary-fixed-dim": "#68dba9"
+      },
+      borderRadius: {
+        "DEFAULT": "0.125rem",
+        "lg": "0.25rem",
+        "xl": "0.5rem",
+        "full": "0.75rem"
+      },
+      spacing: {
+        "gutter": "1.5rem",
+        "space-xl": "2rem",
+        "gutter-sm": "1rem",
+        "space-sm": "0.5rem",
+        "margin-sm": "1rem",
+        "margin": "2rem",
+        "space-xs": "0.25rem",
+        "space-md": "1rem",
+        "space-lg": "1.5rem"
+      },
+      fontFamily: {
+        "body-sm": ["Inter", "sans-serif"],
+        "body-md": ["Inter", "sans-serif"],
+        "label-lg": ["Inter", "sans-serif"],
+        "label-md": ["Inter", "sans-serif"],
+        "headline-md": ["Inter", "sans-serif"],
+        "headline-lg": ["Inter", "sans-serif"],
+        "headline-lg-mobile": ["Inter", "sans-serif"],
+        "body-lg": ["Inter", "sans-serif"],
+        "headline-xl-mobile": ["Inter", "sans-serif"],
+        "label-sm": ["Inter", "sans-serif"],
+        "headline-sm": ["Inter", "sans-serif"],
+        "headline-xl": ["Inter", "sans-serif"]
+      },
+      fontSize: {
+        "body-sm": ["12px", { lineHeight: "18px", letterSpacing: "0.005em", fontWeight: "400" }],
+        "body-md": ["14px", { lineHeight: "20px", letterSpacing: "0em", fontWeight: "400" }],
+        "label-lg": ["14px", { lineHeight: "20px", letterSpacing: "0.005em", fontWeight: "600" }],
+        "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.01em", fontWeight: "600" }],
+        "headline-md": ["22px", { lineHeight: "28px", letterSpacing: "-0.015em", fontWeight: "600" }],
+        "headline-lg": ["30px", { lineHeight: "38px", letterSpacing: "-0.02em", fontWeight: "600" }],
+        "headline-lg-mobile": ["24px", { lineHeight: "32px", letterSpacing: "-0.015em", fontWeight: "600" }],
+        "body-lg": ["16px", { lineHeight: "24px", letterSpacing: "-0.005em", fontWeight: "400" }],
+        "headline-xl-mobile": ["28px", { lineHeight: "36px", letterSpacing: "-0.02em", fontWeight: "700" }],
+        "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.02em", fontWeight: "500" }],
+        "headline-sm": ["18px", { lineHeight: "24px", letterSpacing: "-0.01em", fontWeight: "600" }],
+        "headline-xl": ["36px", { lineHeight: "44px", letterSpacing: "-0.025em", fontWeight: "700" }]
+      }
+    }
+  },
+  plugins: []
+};

@@ -1,0 +1,6 @@
+{
+  "name": "HelpDesk 360",
+  "description": "Enterprise Workplace IT Support Center and Technician Console with automated SLA dispatch and real-time triage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
