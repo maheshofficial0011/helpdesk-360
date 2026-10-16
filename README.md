@@ -254,6 +254,3 @@ helpdesk-360/
 
 > The repository may evolve; use the current file tree and package scripts as the source of truth if paths differ from this overview.
 
-## 📄 License
-
-This project is described as open-source under the MIT License. See the repository's license file for the applicable terms.
